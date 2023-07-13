@@ -4,10 +4,13 @@ using namespace std;
 
 int main(){
 
-    // Pattern 1
+    
     int n;
     cin >> n;
 
+    cout << " Pattern 1 " << endl; 
+    cout << endl;
+    
     for(int i=1; i<=n; i++){
         for(int j=1; j<=i; j++){
             cout << i-j+1 << " ";
@@ -16,7 +19,9 @@ int main(){
     }
     cout << endl;
 
-    // Pattern 2
+    cout << " Pattern 2 " << endl; 
+    cout << endl;
+
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
             char ch = 'A' + i -1;
@@ -26,7 +31,9 @@ int main(){
     }
      cout << endl;
 
-    // Pattern 3
+    cout << " Pattern 3 " << endl; 
+    cout << endl;
+
     char ch = 'A' -1;
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
@@ -38,7 +45,9 @@ int main(){
 
     cout << endl;
 
-    // Pattern 4
+    cout << " Pattern 4" << endl; 
+    cout << endl;
+
 
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
@@ -50,7 +59,9 @@ int main(){
 
     cout << endl;
 
-    // Pattern 6
+    cout << " Pattern 5 " << endl; 
+    cout << endl;
+
     ch = 'A'-1;
     for(int i=1; i<=n; i++){
         for(int j=1; j<=i; j++){
@@ -62,7 +73,9 @@ int main(){
 
     cout << endl;
 
-    // Pattern 7
+    cout << " Pattern 6 " << endl; 
+    cout << endl;
+
 
     for(int i=1; i<=n; i++){
         for(int j=1; j<=i; j++){
@@ -74,7 +87,9 @@ int main(){
 
     cout << endl;
 
-    // Pattern 8
+    cout << " Pattern 7 " << endl; 
+    cout << endl;
+
 
     for(int i=1; i<=n; i++){
         for(int j=1; j<=i; j++){
@@ -86,7 +101,9 @@ int main(){
 
     cout << endl;
 
-    // Pattern 9
+    cout << " Pattern 8 " << endl; 
+    cout << endl;
+
 
     for(int i=1; i<=n; i++){
         for(int k=1; k<=n-i; k++){
@@ -100,7 +117,9 @@ int main(){
         }
     cout<< endl;
     }
-    // Pattern 10
+    cout << " Pattern 9 " << endl; 
+    cout << endl;
+
 
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n-i+1; j++){
@@ -112,7 +131,9 @@ int main(){
 
     cout << endl;
 
-    // Pattern 11
+    cout << " Pattern 10 " << endl;
+    cout << endl; 
+
 
     for(int i=1; i<=n; i++){
         for(int k=1; k<=i-1; k++){
@@ -129,7 +150,9 @@ int main(){
 
     cout << endl;
 
-    // Pattern 12
+    cout << " Pattern 11 " << endl; 
+    cout << endl;
+
 
     for(int i=1; i<=n; i++){
         for(int k=1; k<=i-1; k++){
@@ -144,7 +167,9 @@ int main(){
     }
 
     cout<< endl;
-    // Pattern 12
+    cout << " Pattern 12 " << endl;
+    cout << endl;
+ 
 
     for(int i=1; i<=n; i++){
         for(int k=1; k<=n-i; k++){
@@ -159,7 +184,9 @@ int main(){
     }
 
     cout<< endl;
-    // Pattern 13
+    cout << " Pattern 13 " << endl; 
+    cout << endl;
+
 
     for(int i=1; i<=n; i++){
         
@@ -173,7 +200,9 @@ int main(){
     }
 
     cout<< endl;
-    // Pattern 14
+    cout << " Pattern 14 " << endl; 
+    cout << endl;
+
     int count =1;
     for(int i=1; i<=n; i++){
         
@@ -188,7 +217,9 @@ int main(){
     }
 
     cout<< endl;
-    // Pattern 15
+    cout << " Pattern 15 " << endl; 
+    cout << endl;
+
     for(int i=1; i<=n; i++){
         
         for(int j=1; j<=n-i; j++){
@@ -205,7 +236,9 @@ int main(){
     }
 
     cout<< endl;
-    // Pattern 16
+    cout << " Pattern 16 " << endl; 
+    cout << endl;
+    
     for(int i=1; i<=n; i++){
         
         for(int j=1; j<=n-i+1; j++){
