@@ -1,0 +1,11 @@
+
+Important Note On Array
+
+Dont put any variable as a array size.
+like arr[size];
+
+instead of that, put constant value on it. like arr[1000] 0r arr[50].
+
+Note :- Also note that if we update a array on function that update will visible on main file.
+Bexause one address bar is send on the function.. But in case of variable it can't update because
+function make copy of it.
