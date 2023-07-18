@@ -1,0 +1,59 @@
+C++ STL
+
+Its stand for standard Template Library.
+ 
+There are four Parts:-
+
+1. Containers
+2. Iterators
+3. Algorithms
+4. Functors
+
+1. Containers
+    containers of Three Types:-
+    1. Sequential
+        a. Vectors
+        b. Stack
+        c. Queue
+        d. Pair(not a Container)
+    2. Ordered 
+        a. Maps
+        b. Multimaps
+        c. sets
+        d. Multisets
+    3. Unordered
+        a. Unordered Map
+        b. Unordered Set 
+
+    Nested Containers
+        1. vector< vector<int> >
+        2. map< int, vector<int> >
+        3. set< pair<int,string>
+        4. vector < map<int>,set<int> >
+ 
+ 2. Iterators
+    > Point to memory address of containers.
+    > begin(), end()
+    > vector<int>::iterators it;
+        How to write it in short?
+    > Continuity for containers.
+
+3.  Algorithms
+    > Upper bound
+    > lower bound
+    > sort 
+    > Max-element
+    > min-element
+    > accumulate
+    > reverse 
+    > Count 
+    > find 
+    > next permutations
+    > press permutations
+
+4. Functors
+    classes which can act as function.
+
+*** Lecture 2 ***
+
+
